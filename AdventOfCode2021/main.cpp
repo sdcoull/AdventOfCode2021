@@ -12,17 +12,34 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     cout << "Hello, Steven! Starting...\n";
     
-    int previousMeasurement = -1;
+    int previousMeasurement = 0;
+    int measurementA = -1;
+    int measurementB = -1;
+    int measurementC = -1;
     int depthIncreaseCounter = 0;
     string myText;
     ifstream MyReadFile("Day1Input.txt");
     
-    while (getline (MyReadFile, myText)) {
-        int depthMeasurement = stoi(myText);
-        if(previousMeasurement != -1 && depthMeasurement > previousMeasurement)
+    for(int i = 0; getline (MyReadFile, myText); i++)
+    {
+        int mod = i % 3;
+        if(mod == 0)
+            measurementA = stoi(myText);
+        else if(mod == 1)
+            measurementB = stoi(myText);
+        else
+            measurementC = stoi(myText);
+        
+        if(i < 2) continue;
+        
+        int measurement = measurementA + measurementB + measurementC;
+        
+        if(i > 2 && measurement > previousMeasurement)
             depthIncreaseCounter++;
-        previousMeasurement = depthMeasurement;
+    
+        previousMeasurement = measurement;
     }
+    
     MyReadFile.close();
     
     cout << "Increase Counter: " << depthIncreaseCounter << "\n";
