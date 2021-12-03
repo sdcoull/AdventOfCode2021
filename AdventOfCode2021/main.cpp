@@ -7,6 +7,7 @@
 //
 
 #include "dayOne.hpp"
+#include "dayTwo.hpp"
 
 using namespace AdventOfCode;
 using namespace std;
@@ -14,7 +15,11 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     cout << "Advent Of Code 2021: Starting...\n";
     
-    dayOne d;
+//    dayOne d;
+//    d.partOne();
+//    d.partTwo();
+    
+    dayTwo d;
     d.partOne();
     d.partTwo();
     
