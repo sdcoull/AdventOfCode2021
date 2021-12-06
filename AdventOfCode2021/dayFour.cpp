@@ -3,7 +3,7 @@
 //  AdventOfCode2021
 //
 //  Created by Steven Coull on 05/12/2021.
-//  https://adventofcode.com/2021/day/3
+//  https://adventofcode.com/2021/day/4
 //
 
 #include "dayFour.hpp"
