@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AF4707275EAA65000DB69A /* dayFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19AF4705275EAA65000DB69A /* dayFive.cpp */; };
 		19C2E124275D31280090D286 /* dayFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19C2E122275D31280090D286 /* dayFour.cpp */; };
 		19EDA7F52759494800273F35 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19EDA7F42759494800273F35 /* main.cpp */; };
 		19EDA8042759552D00273F35 /* dayOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19EDA8022759552D00273F35 /* dayOne.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19AF4705275EAA65000DB69A /* dayFive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dayFive.cpp; sourceTree = "<group>"; };
+		19AF4706275EAA65000DB69A /* dayFive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dayFive.hpp; sourceTree = "<group>"; };
 		19C2E122275D31280090D286 /* dayFour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dayFour.cpp; sourceTree = "<group>"; };
 		19C2E123275D31280090D286 /* dayFour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dayFour.hpp; sourceTree = "<group>"; };
 		19EDA7F12759494800273F35 /* AdventOfCode2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2021; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +81,8 @@
 				19F9F657275A933D00954D25 /* dayThree.hpp */,
 				19C2E122275D31280090D286 /* dayFour.cpp */,
 				19C2E123275D31280090D286 /* dayFour.hpp */,
+				19AF4705275EAA65000DB69A /* dayFive.cpp */,
+				19AF4706275EAA65000DB69A /* dayFive.hpp */,
 			);
 			path = AdventOfCode2021;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				19F9F652275A8B3600954D25 /* dayTwo.cpp in Sources */,
 				19EDA8042759552D00273F35 /* dayOne.cpp in Sources */,
 				19C2E124275D31280090D286 /* dayFour.cpp in Sources */,
+				19AF4707275EAA65000DB69A /* dayFive.cpp in Sources */,
 				19F9F658275A933D00954D25 /* dayThree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
