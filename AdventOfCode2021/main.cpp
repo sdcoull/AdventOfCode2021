@@ -6,7 +6,7 @@
 //  https://adventofcode.com/
 //
 
-#include "daySeven.hpp"
+#include "dayEight.hpp"
 
 using namespace AdventOfCode;
 using namespace std;
@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     cout << "Advent Of Code 2021: Starting...\n";
     
-    daySeven day;
+    dayEight day;
     day.partOne();
     day.partTwo();
     
